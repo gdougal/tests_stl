@@ -57,8 +57,8 @@ protected:
 
 	void	Check_sum_all() {
 		assert_containers_eq(ft_cont_, orig_cont_);
-		assert_containers_eq(ft_cont_, orig_cont_);
-		assert_containers_eq(ft_cont_, orig_cont_);
+		assert_containers_eq(ft_cont_filed_, orig_cont_filed_);
+		assert_containers_eq(ft_cont_rand_, orig_cont_rand_);
 	}
 };
 
